@@ -52,7 +52,7 @@ The file is called nodejs\_reverse.js. Let's find where it is.
 Output of Go-Buster:
 
 
-'''
+```
         /content              (Status: 301) [Size: 181] [--> /content/]
         /admin                (Status: 200) [Size: 1238]               
         /assets               (Status: 301) [Size: 179] [--> /assets/] 
@@ -62,7 +62,7 @@ Output of Go-Buster:
         /Enciclopedia_Libre_Universal_en_Espa%F1ol (Status: 400) [Size: 1125]
         /mosquitologof%FCrshopfigurklein_3 (Status: 400) [Size: 1117]        
         /Post%2Dit%AE%5FSoftware%5FNotes%5F3%2E1%5F%5F%2D%5FStandard (Status: 400) [Size: 1143]
-'''
+```
 
 **However** there was no file in /modules or /content. 
 The /admin sight however allows you to load arbitrary modules.
